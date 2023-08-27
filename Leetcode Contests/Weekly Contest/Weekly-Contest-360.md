@@ -105,7 +105,7 @@ There are 2 condition that can be possible -
 2. We can not find the sum directly - In this case we check for bits which are set and which are not set in target .
 
 Suppose we find a bit in not set in our array and is set in the target . Then we try to set that bit using remaing number present on the left side of the array .
-Because             ` 2<sup>i</sup>  = 2<sup>i-1</sup> +1 `
+Because             ` 2^i  = 2^(i-1) +1 `
 
 And if we can not able to set the bit from remaining numbers then we find first non zero nuber inright of array and keep breaking it untill we set that bit .
 
