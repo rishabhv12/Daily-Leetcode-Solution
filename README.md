@@ -1,29 +1,65 @@
-## Daily-Leetcode-Solution
-### Todays Question: 
+## 29. Next Happy Number
 
-### Brute Force Description :
-Just Traverse the letters array and check every element if this is greater than the target element or not.?
-Pta hai aisa kyun kyunki our array is sorted here.
+The problem can be found at the following link: [Question Link](https://leetcode.com/problems/implement-stack-using-queues/description/)
 
-**Time Complexity :** `O(n)O(n)O(n)`
-**Space Complexity :** `O(1)O(1)O(1)`
+### My Approach
 
-### Binary Search Description :
-Aree socho yrrr lexicographically greater hi chaiye na aur here sorted array bhi hai to why not use binary search.
+This is the standard problem , In this we can xreate two queue ann then -
 
-Here comes a solution with binary search. Where in O(logn)O(logn)O(logn) Time Complexity apna kaam ho jayega.
-And Space Complexity will be same O(1)O(1)O(1)
+1. For push, first we push the givem value in queue 2
+2. After that we push all the value of queue 1 in queue 2 ,it will result in the first element will be present at the last of queue
+3. We swap queue 1 and 2 it will result that the first element of queue is the element we just pushed for in queue 2.
 
-The code of both approaches is given below. Do check it out.
+### Time and Auxiliary Space Complexity
+
+- **Time Complexity**: `O(n)` 
+- **Auxiliary Space Complexity**: `O(n)` because we used an extra queue..
+
+### Code (C++)
+
 ```cpp
-class Solution {
+class MyStack {
+    queue<int> q1, q2;
 public:
-    char nextGreatestLetter(vector<char>& letters, char target) {
-        int n= letters.size();
-        for(int i=0;i<n;i++){
-            if(letters[i]>target) return  letters[i];
+    MyStack() {
+
+    }
+    
+    void push(int x) {
+        q2.push(x);
+
+        while(!q1.empty()){
+            q2.push(q1.front());
+            q1.pop();
         }
-        return letters[0];
+
+        queue<int> temp;
+        temp = q1;
+        q1 = q2;
+        q2 = temp;
+
+    }
+    
+    int pop() {
+ 
+        int val = q1.front();
+        q1.pop();
+        return val;
+    }
+    
+    int top() {
+        return q1.front();
+    }
+    
+    bool empty() {
+        if(q1.empty()) return true;
+        else return false;
     }
 };
 ```
+
+### Contribution and Support
+
+For discussions, questions, or doubts related to this solution, please visit our [discussion section](https://leetcode.com/discuss/general-discussion). We welcome your input and aim to foster a collaborative learning environment.
+
+If you find this solution helpful, consider supporting us by giving a `⭐ star` to the [rishabhv12/Daily-Leetcode-Solution](https://github.com/rishabhv12/Daily-Leetcode-Solution) repository.
