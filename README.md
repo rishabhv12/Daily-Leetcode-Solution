@@ -1,4 +1,4 @@
-## 29. Next Happy Number
+## 28. Implement stack using queues
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/implement-stack-using-queues/description/)
 
