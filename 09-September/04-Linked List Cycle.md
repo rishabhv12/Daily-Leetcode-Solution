@@ -1,6 +1,3 @@
-## Leetcode today's problem 
-
-
 ## 04. Linked List Cycle
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/linked-list-cycle/)
