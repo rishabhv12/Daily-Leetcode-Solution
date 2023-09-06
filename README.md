@@ -1,6 +1,6 @@
 ## Leetcode question of the day 
 
-# 06. Split Linked List in Parts
+### 06. Split Linked List in Parts
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/split-linked-list-in-parts/)
 
