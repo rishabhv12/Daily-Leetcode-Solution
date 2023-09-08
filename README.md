@@ -1,6 +1,6 @@
 ## Leetcode question of the day 
 
-### 06. Pascal's Triangle
+### 08. Pascal's Triangle
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/pascals-triangle/description/)
 
