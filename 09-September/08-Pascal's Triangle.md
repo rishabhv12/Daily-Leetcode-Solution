@@ -1,6 +1,4 @@
-## Leetcode question of the day 
-
-### 06. Pascal's Triangle
+## 06. Pascal's Triangle
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/pascals-triangle/description/)
 
@@ -53,7 +51,7 @@ public:
             vector<int> row;
 
             for(int j=0;j<=i;j++){
-                
+
                 if(j==0) row.push_back(ans[i-1][j]);
                 else if(j==i) row.push_back(ans[i-1][i-j]);
                 else{
