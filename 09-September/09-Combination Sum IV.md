@@ -1,6 +1,4 @@
-## Leetcode question of the day 
-
-### 09. Combination Sum IV
+## 09. Combination Sum IV
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/combination-sum-iv/)
 
