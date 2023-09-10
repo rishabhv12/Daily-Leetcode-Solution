@@ -1,6 +1,4 @@
-## Leetcode question of the day 
-
-### 10. Count All Valid Pickup and Delivery Options
+## 10. Count All Valid Pickup and Delivery Options
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/)
 
