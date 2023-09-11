@@ -1,7 +1,4 @@
-## Leetcode question of the day 
-
-
-### 11. Group the People Given the Group Size They Belong To
+## 11. Group the People Given the Group Size They Belong To
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to/)
 
