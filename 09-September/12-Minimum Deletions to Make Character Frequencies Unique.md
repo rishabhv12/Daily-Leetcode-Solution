@@ -1,7 +1,4 @@
-## Leetcode question of the day 
-
-
-### 12. Minimum Deletions to Make Character Frequencies Unique
+## 12. Minimum Deletions to Make Character Frequencies Unique
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/)
 
