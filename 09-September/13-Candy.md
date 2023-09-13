@@ -1,7 +1,4 @@
-## Leetcode question of the day 
-
-
-### 13. Candy
+## 13. Candy
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/candy/)
 
