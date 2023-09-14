@@ -1,7 +1,4 @@
-## Leetcode question of the day 
-
-
-### 14. Reconstruct Itinerary
+## 14. Reconstruct Itinerary
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/reconstruct-itinerary/description/)
 
