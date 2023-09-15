@@ -1,7 +1,4 @@
-## Leetcode question of the day 
-
-
-### 15. Min Cost to Connect All Points
+## 15. Min Cost to Connect All Points
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/min-cost-to-connect-all-points/description/)
 
