@@ -1,7 +1,4 @@
-## Leetcode question of the day 
-
-
-### 17. Shortest Path Visiting All Nodes
+## 17. Shortest Path Visiting All Nodes
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/shortest-path-visiting-all-nodes/description/)
 
