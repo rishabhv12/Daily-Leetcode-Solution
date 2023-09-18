@@ -1,7 +1,4 @@
-## Leetcode question of the day 
-
-
-### 18. The K Weakest Rows in a Matrix
+## 18. The K Weakest Rows in a Matrix
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/the-k-weakest-rows-in-a-matrix/description/)
 
