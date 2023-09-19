@@ -1,7 +1,4 @@
-## Leetcode question of the day 
-
-
-### 19. Find the Duplicate Number
+## 19. Find the Duplicate Number
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/find-the-duplicate-number/description/)
 
