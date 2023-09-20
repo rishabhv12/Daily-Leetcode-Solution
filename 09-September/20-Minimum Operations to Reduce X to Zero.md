@@ -1,7 +1,4 @@
-## Leetcode question of the day 
-
-
-### 20. Minimum Operations to Reduce X to Zero
+## 20. Minimum Operations to Reduce X to Zero
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description)
 
