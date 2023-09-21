@@ -1,7 +1,4 @@
-## Leetcode question of the day 
-
-
-### 21-Median of Two Sorted Arrays
+## 21-Median of Two Sorted Arrays
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/description)
 
