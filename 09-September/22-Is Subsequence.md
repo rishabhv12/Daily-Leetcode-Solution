@@ -1,7 +1,4 @@
-## Leetcode question of the day 
-
-
-### 22- Is Subsequence
+## 22- Is Subsequence
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/is-subsequence/description)
 
