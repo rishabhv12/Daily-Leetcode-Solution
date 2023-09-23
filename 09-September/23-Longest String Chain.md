@@ -1,7 +1,4 @@
-## Leetcode question of the day 
-
-
-### 23- Longest String Chain
+## 23- Longest String Chain
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/longest-string-chain/description/)
 
