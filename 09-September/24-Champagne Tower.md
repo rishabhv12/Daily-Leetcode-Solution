@@ -1,7 +1,4 @@
-## Leetcode question of the day 
-
-
-### 24- Champagne Tower
+## 24- Champagne Tower
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/champagne-tower/description/)
 
