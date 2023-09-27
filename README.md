@@ -6,8 +6,6 @@ The problem can be found at the following link: [Question Link](https://leetcode
 ### My Approach
 
 
-Sure, here's a step-by-step explanation of the algorithm implemented in the provided C++ code:
-
 1. Initialize `decodedLength` to 0: This variable will keep track of the total length of the decoded string as we iterate through it. It's initially set to 0.
 
 2. Iterate through each character in the input string `s` using a for-each loop:
