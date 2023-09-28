@@ -1,7 +1,4 @@
-## Leetcode question of the day 
-
-
-### 28- Sort Array By Parity
+## 28- Sort Array By Parity
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/sort-array-by-parity/description)
 
