@@ -1,7 +1,4 @@
-## Leetcode question of the day 
-
-
-### 29- Monotonic Array
+## 29- Monotonic Array
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/monotonic-array/description/)
 
