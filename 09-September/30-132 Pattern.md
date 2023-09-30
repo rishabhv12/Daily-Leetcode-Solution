@@ -1,7 +1,4 @@
-## Leetcode question of the day 
-
-
-### 30- 132 Pattern
+## 30- 132 Pattern
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/132-pattern/description/)
 
