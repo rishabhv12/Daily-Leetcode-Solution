@@ -7,8 +7,6 @@ The problem can be found at the following link: [Question Link](https://leetcode
 ### My Approach
 
 
-Certainly! Here's a step-by-step explanation of the `MyHashMap` class and its methods:
-
 1. Class Declaration:
    - The `MyHashMap` class is declared.
    - It includes a private data member `mp`, which is a vector of lists of pairs. This data structure will be used to implement a hash map.
