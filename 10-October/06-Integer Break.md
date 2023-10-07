@@ -1,34 +1,39 @@
 ## 06. Integer Break 
 
 
-The problem can be found at the following link: [Question Link](https://leetcode.com/problems/majority-element-ii/description/)
+The problem can be found at the following link: [Question Link](https://leetcode.com/problems/integer-break/description)
 
 
 ### My Approach
 
 
-1. Initialize variables:
-   - `n` to store the size of the input vector `nums`.
-   - Create an unordered map `cnt` to store the count of occurrences of each element.
-   - Initialize an empty vector `ans` to store the majority elements.
 
-2. Iterate through the `nums` vector using a for loop:
-   - Use the `cnt` map to count the occurrences of each element in the `nums` vector.
+1. Check if `n` is equal to 2:
+   - If `n` is 2, return 1. This is because the maximum product of two positive integers that sum up to 2 is 1 * 1.
 
-3. Iterate through the elements in the `cnt` map:
-   - Check if the count (`j->second`) of an element is greater than one-third of the total elements (`n/3`).
-   - If the count meets the condition, add the element (`j->first`) to the `ans` vector.
+2. Check if `n` is equal to 3:
+   - If `n` is 3, return 2. This is because the maximum product of two positive integers that sum up to 3 is 1 * 2.
 
-4. After both loops have finished, the `ans` vector will contain the majority elements (elements that appear more than one-third of the time) in the input vector `nums`.
+3. Calculate the integer division `x` of `n` by 3:
+   - `x = n / 3`
 
-5. Return the `ans` vector as the result.
+4. Check if `n` is divisible by 3 (i.e., `n % 3 == 0`):
+   - If `n` is divisible by 3, return the result of raising 3 to the power of `x` using the `pow` function. This is because you can split `n` into `x` equal parts, each of size 3, to maximize the product.
+
+5. Check if `(n - 1)` is divisible by 3 (i.e., `(n - 1) % 3 == 0`):
+   - If `(n - 1)` is divisible by 3, return the result of raising 3 to the power of `x - 1` and multiplying it by 4. This is because you can split `n` into `x - 1` equal parts of size 3 and one part of size 4 to maximize the product.
+
+6. If none of the above conditions are met:
+   - Return the result of raising 3 to the power of `x` and multiplying it by 2. This is because you can split `n` into `x` equal parts of size 3 and one part of size 2 to maximize the product.
+
+
 
 
 
 ### Time and Auxiliary Space Complexity
 
-- **Time Complexity**: `O(n)` 
-- **Auxiliary Space Complexity**: `O(n)`
+- **Time Complexity**: `O(1)` 
+- **Auxiliary Space Complexity**: `O(1)`
 
 
 
@@ -38,17 +43,13 @@ The problem can be found at the following link: [Question Link](https://leetcode
 
 class Solution {
 public:
-    vector<int> majorityElement(vector<int>& nums) {  
-        int n=nums.size();
-        unordered_map<int, int> cnt;
-        vector<int> ans;
-        for(int i=0;i<n;i++){
-            cnt[nums[i]]++;
-        }
-        for(auto j=cnt.begin();j!=cnt.end();j++){
-            if(j->second>n/3)ans.push_back(j->first);
-        }
-        return ans;
+    int integerBreak(int n) {
+        if(n==2) return 1;
+        if(n==3) return 2;
+        int x = n/3;
+        if(n%3==0) return pow(3,x);
+        else if((n-1)%3==0) return pow(3,x-1)*4;
+        else return pow(3,x)*2; 
     }
 };
 
