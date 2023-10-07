@@ -1,4 +1,4 @@
-## 06. Majority Element II
+## 05. Majority Element II
 
 
 The problem can be found at the following link: [Question Link](https://leetcode.com/problems/majority-element-ii/description/)
